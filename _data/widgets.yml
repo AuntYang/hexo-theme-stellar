@@ -96,9 +96,20 @@ myghuser:
   avatar: true # show avatar or not
   menu: true # show menu or not
   
-#我的动态小组件
+# 我的动态小组件
 mytimeline:
   layout: timeline
   title: 我的近期动态
   api: https://api.github.com/repos/auntyang/blog-timeline/issues
   user: AuntYang
+
+# 首页welcome
+welcomeHome:
+  layout: markdown
+  title: 欢迎欢迎
+  content: |
+    欢迎来到[杨阿姨.CF](auntyang.cf)!
+    <br>
+    原博客[梅园小径](auntyang.eu.org)目前正在往此迁移中！
+    <br>
+    欢迎你在注明作者和出处的情况下转载本站文章！
