@@ -71,9 +71,6 @@ timeline:
   type: # 默认不用写，如果是友链朋友圈数据请写 fcircle
   limit: # 默认通过 api 上增加 per_page 来设置，如果是友链朋友圈，可通过这个设置数量
   
-# 相关文档组件，用于显示具有相同 tags 的其它项目列表，暂不支持自定义内容
-related: 
-  layout: related
   
 # 这是一个自由度很高的标签，可以在侧边栏显示 markdown 文本内容
 welcome:
