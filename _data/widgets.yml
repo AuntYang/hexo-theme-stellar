@@ -90,7 +90,7 @@ welcome:
 # 以上为侧边栏小组件模板，以下为自定义
 
 # github user卡片（auntyang）
-ghuser:
+myghuser:
   layout: ghuser
   username: auntyang # your github login username
   avatar: true # show avatar or not
