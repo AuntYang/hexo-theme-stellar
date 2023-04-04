@@ -98,3 +98,10 @@ ghuser:
   username: auntyang # your github login username
   avatar: true # show avatar or not
   menu: true # show menu or not
+  
+#我的动态小组件
+mytimeline:
+  layout: timeline
+  title: 我的近期动态
+  api: https://api.github.com/repos/auntyang/blog-timeline/issues
+  user: auntyang
