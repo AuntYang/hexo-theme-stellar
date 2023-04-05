@@ -111,3 +111,35 @@ welcomeHome:
     欢迎来到[杨阿姨.CF](/about/)!
     原博客<a href="https://auntyang.eu.org" target="_blank">梅园小径</a>目前正在往此地迁移中！
     欢迎你在注明作者和出处的情况下转载本站文章！
+
+#我的豆瓣观影记录
+welcomeDouban:
+  layout: markdown
+  content: |
+    <widget class="widget-wrapper timeline">
+    <div class="widget-header cap theme dis-select" ><center><span class="name" >我的豆瓣记录</span></center></div>
+    <div class="widget-body fs14">
+        <div class="tag-plugin timeline">
+            <div class="timenode" index="0">
+                <div class="header">
+                    <div class="user-info"><img
+                            src="https://img1.doubanio.com/f/frodo/144e6fb7d96701944e7dbb1a9bad51bdb1debe29/pics/app/logo.png"
+                            onerror="javascript:this.src='https://dja6-ksvwjzd-qltxcezl-w6z7n-czu4ar4b.seeseeme.cn/i-abc/blog-cdn/main/avatar/round/3442075.svg';"><span></span>
+                    </div>
+                    <p></p>
+                </div><a class="body" href="/life/doubanmovies/" target="_self"
+                    rel="external nofollow noopener noreferrer">豆瓣电影、剧集观看记录</a>
+            </div>
+            <div class="timenode" index="1">
+                <div class="header">
+                    <div class="user-info"><img
+                            src="https://img1.doubanio.com/f/frodo/144e6fb7d96701944e7dbb1a9bad51bdb1debe29/pics/app/logo.png"
+                            onerror="javascript:this.src='https://dja6-ksvwjzd-qltxcezl-w6z7n-czu4ar4b.seeseeme.cn/i-abc/blog-cdn/main/avatar/round/3442075.svg';"><span></span>
+                    </div>
+                    <p></p>
+                </div><a class="body" href="/life/doubanbook" target="_self"
+                    rel="external nofollow noopener noreferrer">豆瓣书籍阅读记录</a>
+                </div>
+            </div>
+        </div>
+    </widget>
